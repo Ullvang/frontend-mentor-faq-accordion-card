@@ -11,4 +11,5 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 ## Author
 
 - Website - [Jon Erik Ullvang](https://www.jonerikullvang.no)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ullvang)
+- Frontend Mentor - [@ullvang](https://www.frontendmentor.io/profile/ullvang)
+- CSS Battle - [@ullvang](https://cssbattle.dev/player/ullvang)
