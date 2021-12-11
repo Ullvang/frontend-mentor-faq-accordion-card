@@ -1,13 +1,166 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background: white;
+  border-radius: 2rem;
+  padding: 0 2rem 2rem 2rem;
+  margin: 12rem 0px 1rem;
+}
+
+footer {
+  bottom: 0;
+  padding: 1rem;
+  /* position: absolute; */
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+}
+
+h1 {
+  color: hsl(238, 29%, 16%);
+}
+h2 {
+  color: hsl(240, 6%, 50%);
+  /* color: hsl(237, 12%, 33%); */
+}
+.dark {
+  color: hsl(238, 29%, 16%);
+}
+img {
+  width: 240px;
+  /* position: absolute; */
+  display: block;
+  margin: auto;
+}
+
+p {
+  width: 279.2px;
+  color: hsl(240, 6%, 50%);
+}
+
+#ic {
+  min-height: 104px;
+  position: relative;
+}
+
+#wom {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 1;
+}
+.q {
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+}
+.question {
+  max-width: 279.2px;
+  display: flex;
+}
+.question > img {
+  width: 10px;
+  margin: auto 0 auto auto;
+}
+
+#box {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.ud {
+  transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 600px) {
+  @media only screen and (orientation: landscape) {
+    body {
+      padding: 0px 2rem;
+    }
+    main {
+      margin: 12rem 0px 3rem;
+    }
+  }
+  @media only screen and (orientation: portrait) {
+    main {
+      margin: 0px 0px;
+    }
+    body {
+      padding: 0px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    display: flex;
+    padding: 5rem;
+  }
+  .question {
+    width: 279.2px;
+    display: flex;
+  }
+  main {
+    overflow: hidden;
+  }
+  #wom {
+    position: absolute;
+    left: 0%;
+    transform: translate(-32%, 15%);
+    width: 400px;
+  }
+  #ic {
+    padding: 20px;
+    width: 300px;
+  }
+  #p {
+    position: absolute;
+    width: 75rem;
+    transform: translate(-645px, -320px);
+    /* bottom: 0;  */
+  }
+  #box {
+    position: absolute;
+    display: inline-block;
+    transform: translate(-100px, -340px);
+    z-index: 2;
+  }
+
+  main {
+    margin: 3rem;
+  }
+  /* #ic { */
+  /* display: none; */
+  /* } */
 }
