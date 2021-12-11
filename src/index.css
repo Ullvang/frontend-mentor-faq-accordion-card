@@ -160,6 +160,10 @@ p {
   main {
     margin: 3rem;
   }
+
+  h1 {
+    text-align: left;
+  }
   /* #ic { */
   /* display: none; */
   /* } */

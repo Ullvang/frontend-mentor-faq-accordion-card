@@ -120,7 +120,7 @@ function App() {
         >
           Frontend Mentor
         </a>
-        . Coded by <a href="/">Your Name Here</a>.
+        . Coded by <a href="/">Jon Erik Ullvang</a>.
       </footer>
     </>
   );
